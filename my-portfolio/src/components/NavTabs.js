@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 function NavTabs() {
   return (
-    <ul className="nav nav-tabs">
+    <ul className="nav nav-pills">
       <li className="nav-item">
         <NavLink
           to="/"
@@ -27,16 +27,6 @@ function NavTabs() {
       </li>
       <li className="nav-item">
         <NavLink
-          to="blog"
-          className={({ isActive }) =>
-            isActive ? 'nav-link active' : 'nav-link'
-          }
-        >
-          Blog
-        </NavLink>
-      </li>
-      <li className="nav-item">
-        <NavLink
           to="contact"
           end
           className={({ isActive }) =>
@@ -46,16 +36,7 @@ function NavTabs() {
           Contact
         </NavLink>
       </li>
-      <li className="nav-item">
-        <NavLink
-          to="contact/learn"
-          className={({ isActive }) =>
-            isActive ? 'nav-link active' : 'nav-link'
-          }
-        >
-          Learn
-        </NavLink>
-      </li>
+
     </ul>
   );
 }
