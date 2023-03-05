@@ -10,10 +10,9 @@
 h1{
     text-align: center;
     margin-top: 2rem;
-    color: white;
+    color: #AB2346;
     font-size: 4rem;
-    border-bottom: 2px solid white;
-    padding: 5px;
+
 }
 
 p{
@@ -31,19 +30,32 @@ p{
 }
 
 .nav- .nav-link{
-    color: white;
+    color: #6E0C26;
 }
 
 .nav- .nav-link:hover{
-    color: #ab2346;
-    border-bottom: 1px solid #AB2346;
+    color: #FF00B3;
+    border-bottom: 1px solid #FF00B3;
 
 }
 
 .nav- .nav-link:focus{
-    border-color: red !important;
+    border-color:#C80D85 !important;
 }
 
 .nav- .nav-link:focus{
-    color: #BA5474 !important;
+    color:#C80D85 !important;
+}
+
+/* Footer style */
+.footer{
+    list-style-type: none;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-item{
+    padding: 0.5rem;
+    font-size: 1.7rem;
 }

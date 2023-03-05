@@ -7,6 +7,7 @@ import "./components/css/home.css";
 import Projects from './components/pages/Projects';
 import "./components/css/style.css";
 import "./components/css/contact.css";
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           {/* Define a route that will have descendant routes */}
           <Route path="contact/*" element={<Contact />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );

@@ -1,17 +1,31 @@
 import React from "react";
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
 
 function Projects() {
   return (
     <div>
       <h1>Projects</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui
-        mauris, ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus
-        porta. Nam quis arcu non lectus tincidunt fermentum. Suspendisse aliquet orci porta quam
-        semper imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed
-        rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
-    </div>
+      <Row xs={1} md={2} className="g-4">
+        {Array.from({ length: 6 }).map((_, idx) => (
+          <Col>
+            <Card border="light">
+              <Card.Img variant="top" src="holder.js/100px160" />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up the
+                  bulk of the card's content.
+                </Card.Text>
+                <Button variant="primary">Go somewhere</Button>
+              </Card.Body>
+            </Card>
+          </Col>
+        ))}
+      </Row>
+    </div >
   );
 }
 

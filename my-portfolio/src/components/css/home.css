@@ -2,12 +2,14 @@
 .header h1{
     text-align: center;
     margin-top: 2rem;
-    color: white;
+    color: #AB2346;
     font-size: 6rem;
+    border-bottom: 2px solid #BA5474;
+    padding: 5px;
 }
 
 .header p{
-    color: white;
+    color: #AB2346;
     text-align: center;
     font-size: 2em;
 }
