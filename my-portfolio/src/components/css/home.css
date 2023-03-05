@@ -1,10 +1,4 @@
-*{
-    background-image: url('../images/background_image.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
-
+/* Header style */
 .header h1{
     text-align: center;
     margin-top: 2rem;
@@ -12,7 +6,7 @@
     font-size: 6rem;
 }
 
-p{
+.header p{
     color: white;
     text-align: center;
     font-size: 2em;
@@ -22,3 +16,4 @@ p{
     margin-top: 15rem;
     font-family: Arial, Helvetica, sans-serif;
 }
+

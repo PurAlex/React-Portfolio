@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Project 1",
+        "image": "./components/images/project-1",
+        "link":"https://github.com/PurAlex/Team-Profile-Generator"
+    },
+    {
+        "id": 2,
+        "name": "Project 2",
+        "image": "./components/images/project-2",
+        "link":"https://github.com/PurAlex/README-Generator"
+    },
+    {
+        "id": 3,
+        "name": "Project 3",
+        "image": "./components/images/project-3",
+        "link":"https://github.com/PurAlex/Weather-Forecast"
+    },
+    {
+        "id": 4,
+        "name": "Project 4",
+        "image": "./components/images/project-4",
+        "link":"https://github.com/PurAlex/Work-day-scheduler"
+    },
+    {
+        "id": 5,
+        "name": "Project 5",
+        "image": "./components/images/project-5",
+        "link":"https://github.com/PurAlex/Password-Generator"
+    },
+    {
+        "id": 6,
+        "name": "Project 6",
+        "image": "./components/images/project-6",
+        "link":"https://github.com/PurAlex/Web-APIs"
+    }
+]

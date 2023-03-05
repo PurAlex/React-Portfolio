@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 function NavTabs() {
   return (
-    <ul className="nav nav-pills">
+    <ul className="nav nav-">
       <li className="nav-item">
         <NavLink
           to="/"
@@ -17,12 +17,12 @@ function NavTabs() {
       </li>
       <li className="nav-item">
         <NavLink
-          to="about"
+          to="projects"
           className={({ isActive }) =>
             isActive ? 'nav-link active' : 'nav-link'
           }
         >
-          About
+          Projects
         </NavLink>
       </li>
       <li className="nav-item">

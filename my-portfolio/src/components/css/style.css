@@ -1,0 +1,49 @@
+/*  */
+*{
+    background-image: url('../images/background_image.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Text style */
+h1{
+    text-align: center;
+    margin-top: 2rem;
+    color: white;
+    font-size: 4rem;
+    border-bottom: 2px solid white;
+    padding: 5px;
+}
+
+p{
+    color: white;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+/* Navbar style */
+.nav{
+    margin: 3rem;
+    font-size: 1.6rem;
+    justify-content: flex-end;
+    
+}
+
+.nav- .nav-link{
+    color: white;
+}
+
+.nav- .nav-link:hover{
+    color: #ab2346;
+    border-bottom: 1px solid #AB2346;
+
+}
+
+.nav- .nav-link:focus{
+    border-color: red !important;
+}
+
+.nav- .nav-link:focus{
+    color: #BA5474 !important;
+}

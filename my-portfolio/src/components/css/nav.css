@@ -1,9 +1,0 @@
-.nav{
-    margin: 3rem;
-    font-size: 20px;
-    justify-content: flex-end;
-}
-
-.nav-pills :active{
-    background-color: red;
-}
