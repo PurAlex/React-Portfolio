@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, Route, Routes } from 'react-router-dom';
 import Card from 'react-bootstrap/Card';
+import "./contact.css";
 
 
 function Contact(props) {

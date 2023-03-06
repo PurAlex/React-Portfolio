@@ -1,14 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import NavTabs from './components/NavTabs';
-import Home from './components/pages/Home';
-import Contact from './components/pages/Contact';
-import "./components/css/home.css";
-import Projects from './components/pages/Projects';
+import NavTabs from './components/NavTab/NavTabs';
+import Home from './components/HomePage/Home';
+import Contact from './components/ContactPage/Contact';
+import Projects from './components/ProjectsCard/Projects';
 import "./components/css/style.css";
-import "./components/css/contact.css";
-import Footer from './components/footer';
-// import "./components/css/projects.css";
+import Footer from './components/Footer/footer';
 
 function App() {
   return (

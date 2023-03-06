@@ -21,49 +21,5 @@ p{
     font-size: 1.4em;
 }
 
-/* Navbar style */
-.nav{
-    margin: 3rem;
-    font-size: 1.6rem;
-    justify-content: flex-end;
-    
-}
 
-.nav- .nav-link{
-    color: #6E0C26;
-}
 
-.nav- .nav-link:hover{
-    color: #FF00B3;
-    border-bottom: 1px solid #FF00B3;
-
-}
-
-.nav- .nav-link:focus{
-    border-color:#C80D85 !important;
-}
-
-.nav- .nav-link:focus{
-    color:#C80D85 !important;
-}
-
-/* Footer style */
-.footer{
-    list-style-type: none;
-    margin-top: 5rem;
-    display: flex;
-    justify-content: center;
-}
-
-.footer-item{
-    padding: 0.5rem;
-    font-size: 1.7rem;
-}
-
-.footer .github, .linkedin{
-    color: #C80D85;
-}
-
-.footer .github:hover{
-    color: black !important;
-}
