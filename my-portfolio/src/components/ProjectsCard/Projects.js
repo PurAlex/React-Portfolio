@@ -12,9 +12,8 @@ function Projects(props) {
         </div>
         <div className="card-content">
           <h2 className="card-title">{props.name}</h2>
-          <h2 className="card-text">text</h2>
           <a href={props.link}>
-            <Button className="btn-card" variant="primary">Go to repo </Button>
+            <Button className="btn-card">Go to repo </Button>
           </a>
         </div>
       </div>

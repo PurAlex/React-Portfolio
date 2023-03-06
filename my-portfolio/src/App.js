@@ -39,10 +39,7 @@ function App() {
       <Wrapper>
         <Title>My Projects</Title>
         {
-          projects.map(f => <Projects key={f.name} name={f.name}
-            image={f.image}
-            link={f.link}
-          />)
+          projects.map(f => <Projects key={f.name} name={f.name} image={f.image} link={f.link} />)
         }
       </Wrapper >
       <Footer />
