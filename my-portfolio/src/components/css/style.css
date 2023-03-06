@@ -59,3 +59,11 @@ p{
     padding: 0.5rem;
     font-size: 1.7rem;
 }
+
+.footer .github, .linkedin{
+    color: #C80D85;
+}
+
+.footer .github:hover{
+    color: black !important;
+}

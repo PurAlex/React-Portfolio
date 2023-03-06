@@ -9,14 +9,14 @@ function Footer() {
 
         <ul className="footer">
             <li className="footer-item">
-                <NavLink
+                <NavLink className="github"
                     to="https://github.com/PurAlex"
                 >
                     <FaGithub />
                 </NavLink>
             </li>
             <li className="footer-item">
-                <NavLink
+                <NavLink className="linkedin"
                     to="https://www.linkedin.com/in/nicky-campoverde-1782a7228/"
                 >
                     <FaLinkedin />
