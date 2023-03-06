@@ -8,6 +8,7 @@ import Projects from './components/pages/Projects';
 import "./components/css/style.css";
 import "./components/css/contact.css";
 import Footer from './components/footer';
+// import "./components/css/projects.css";
 
 function App() {
   return (

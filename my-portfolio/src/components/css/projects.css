@@ -1,0 +1,15 @@
+.card{
+    margin: 25px 35px 0px 35px;
+    border-color: black;
+    text-align: center;
+}
+
+.card-text{
+    color: black;
+}
+
+.btn-card{
+    color: black;
+    border-color: red;
+    margin-bottom: 2rem;
+}
