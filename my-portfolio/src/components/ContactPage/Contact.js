@@ -6,7 +6,8 @@ import cv from '../../assets/CV(Nicky).pdf';
 function Contact() {
   return (
     <div>
-      <h1>Contact Page</h1>
+      <h1 className='contact-title'>Contact</h1>
+      <p>If I catch your attention don't doubt of contacting me!</p>
       <container className="contact-container">
         <form
           action="https://getform.io/f/04feb2e1-24e2-4e73-98b3-837225c11041"
