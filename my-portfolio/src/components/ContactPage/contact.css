@@ -1,15 +1,53 @@
 .contact-p{
     color: black;
-}
-
-.contact-information{
-    text-align: center;
-    margin-top: 5rem;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content:space-evenly;
+    font-size: 2rem;
 }
 
 .contact-container{
     margin: 50px;
+}
+
+/* Form style */
+form{
+    box-shadow: 0 3px 10px rgb(111, 13, 13);
+    padding: 4rem;
+    margin: 6rem;
+}
+
+
+.form-control{
+    border: 1px solid black !important;
+}
+
+.btn{
+    color: black !important;
+    border: 1px solid black !important;
+    max-width: 3;
+}
+
+.btn:hover{
+    color: #FF00B3 !important; 
+}
+
+.contact-head{
+    text-align: center;
+    font-size: 1.9rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.contact-information{
+    text-align: center;
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+.email, .pdf{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 1.5rem;
+    color: #6E0C26;
+}
+
+.email:hover, .pdf:hover{
+    color: #FF00B3;
 }

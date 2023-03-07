@@ -8,13 +8,13 @@ function Contact() {
     <div>
       <h1>Contact Page</h1>
       <container className="contact-container">
-        <p className='contact-p'>
-          Get in Touch!
-        </p>
         <form
           action="https://getform.io/f/04feb2e1-24e2-4e73-98b3-837225c11041"
           method="POST"
         >
+          <p className='contact-p'>
+            Get in Touch!
+          </p>
           <div className="row ">
             <div className="col">
               <input
@@ -67,10 +67,10 @@ function Contact() {
             </button>
           </div>
         </form>
+        <h5 className='contact-head'>More ways of contacting me...</h5>
         <div className='contact-information'>
-          <a href='mailto:nicky-nico-1998@outlook.com'>Email</a>
-          <br></br>
-          <a href={cv} download="CV">Download CV</a>
+          <a className='email' href='mailto:nicky-nico-1998@outlook.com'>Email</a>
+          <a className='pdf' href={cv} download="CV">Download CV</a>
         </div >
       </container>
     </div>
