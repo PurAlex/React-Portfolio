@@ -39,6 +39,8 @@ function NavTabs() {
       </li>
 
     </ul>
+
+
   );
 }
 

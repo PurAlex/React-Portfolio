@@ -1,28 +1,21 @@
 import React from 'react';
 import { Link, Route, Routes } from 'react-router-dom';
-import Card from 'react-bootstrap/Card';
 import "./contact.css";
+import cv from '../../assets/CV(Nicky).pdf';
 
-
-function Contact(props) {
+function Contact(git) {
   return (
     <div>
       <h1>Contact Page</h1>
-      <as className='card-contact'>
-        <Card>
-          <Card.Body>This is some text within a card body.</Card.Body>
-        </Card>
-      </as>
-      <p>
+      <p className='contact-p'>
         Get in Touch!
       </p>
-      <Link to="learn" role="button" className="btn btn-link">
-        GitHub
-      </Link>
-      <Link to="contact" role="button" className="btn btn-link">
-        Linkedln
-      </Link>
-    </div >
+      <div className='contact-information'>
+        <a href='mailto:nicky-nico-1998@outlook.com'>Email</a>
+        <br></br>
+        <a href={cv} download="CV">Download CV</a>
+      </div >
+    </div>
   );
 }
 

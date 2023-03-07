@@ -1,4 +1,12 @@
 .card-contact{
-    color: white;
+    color: black;
     background-color: red !important;
+}
+
+.contact-p{
+    color: black;
+}
+
+.contact-information{
+    text-align: center;
 }
