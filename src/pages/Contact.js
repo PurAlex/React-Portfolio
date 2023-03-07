@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, Route, Routes } from 'react-router-dom';
-import "./contact.css";
-import cv from '../../assets/CV(Nicky).pdf';
+import "../assets/css/contact.css";
+import cv from '../data/CV(Nicky).pdf';
 
 function Contact() {
   return (

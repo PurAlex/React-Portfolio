@@ -1,7 +1,7 @@
 import React from "react";
-import "./projects.css";
-import projects from "../../projects.json";
-import ProjectCard from "../projectsCard";
+import "../assets/css/projects.css";
+import projects from "../data/projects.json";
+import ProjectCard from "../components/projectsCard";
 
 function Projects() {
   console.log(projects);
