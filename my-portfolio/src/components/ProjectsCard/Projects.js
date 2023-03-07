@@ -1,24 +1,30 @@
 import React from "react";
-import Button from 'react-bootstrap/Button';
 import "./projects.css";
+import projects from "../../projects.json";
+import ProjectCard from "../projectsCard";
 
-function Projects(props) {
+function Projects() {
+  console.log(projects);
   return (
-    <div>
-      <div className="card">
-        <div className="img-container">
-          <img alt={props.name} src={props.image} />
-        </div>
-        <div className="card-content">
-          <h2 className="card-title">{props.name}</h2>
-          <a href={props.link}>
-            <Button className="btn-card">Go to repo </Button>
-          </a>
-        </div>
+    <div className="container-fluid">
+      <h1 className="mb-4">Projects</h1>
+      <div class="row">
+        {projects.map((project) => {
+          return (
+            <div key={project.id} class="col-md-4 d-flex justify-content-center mb-5">
+              <ProjectCard
+                deployed={project.deployed}
+                link={project.link}
+                name={project.name}
+                image={project.image}
+                alt={project.name}
+              />
+            </div>
+          );
+        })}
       </div>
-    </div >
+    </div>
   );
-
 }
 
 export default Projects;

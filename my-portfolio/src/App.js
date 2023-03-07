@@ -25,17 +25,7 @@ function App() {
           <Route path="projects" element={<Projects />} />
           <Route path="contact" element={<Contact />} />
         </Routes>
-
       </div>
-      <div className='projects'>
-        <Wrapper>
-          <Title>My Projects</Title>
-          {
-            projects.map(f => <Projects key={f.name} name={f.name} image={f.image} link={f.link} />)
-          }
-        </Wrapper >
-      </div>
-
       <Footer />
     </Router >
 
