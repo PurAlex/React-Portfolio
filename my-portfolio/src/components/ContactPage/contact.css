@@ -1,12 +1,15 @@
-.card-contact{
-    color: black;
-    background-color: red !important;
-}
-
 .contact-p{
     color: black;
 }
 
 .contact-information{
     text-align: center;
+    margin-top: 5rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:space-evenly;
+}
+
+.contact-container{
+    margin: 50px;
 }
