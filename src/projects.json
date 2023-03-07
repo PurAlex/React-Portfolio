@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Team Profile Generator",
+        "image": "./components/images/project-1.jpg",
+        "link":"https://github.com/PurAlex/Team-Profile-Generator"
+    },
+    {
+        "id": 2,
+        "name": "README Generator",
+        "image": "./components/images/project-2.jpg",
+        "link":"https://github.com/PurAlex/README-Generator"
+    },
+    {
+        "id": 3,
+        "name": "Weather Forecast",
+        "image": "./components/images/project-3.jpg",
+        "link":"https://github.com/PurAlex/Weather-Forecast"
+    },
+    {
+        "id": 4,
+        "name": "Work Day Scheduler",
+        "image": "./components/images/project-4.jpg",
+        "link":"https://github.com/PurAlex/Work-day-scheduler"
+    },
+    {
+        "id": 5,
+        "name": "Password Generator",
+        "image": "./components/images/project-5.jpg",
+        "link":"https://github.com/PurAlex/Password-Generator"
+    },
+    {
+        "id": 6,
+        "name": "Quiz Questions",
+        "image": "./components/images/project-6.jpg",
+        "link":"https://github.com/PurAlex/Web-APIs"
+    }
+]
