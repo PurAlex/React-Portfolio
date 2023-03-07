@@ -6,8 +6,9 @@ function Home() {
     <div className="header">
       <h1>Hello, I am Alexander</h1>
       <p>
-        Front End Developer
+        Front End Web Developer
       </p>
+      <p></p>
     </div>
   );
 }

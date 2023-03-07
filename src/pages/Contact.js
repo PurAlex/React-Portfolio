@@ -10,13 +10,13 @@ function Contact() {
       <p>If I catch your attention don't doubt of contacting me!</p>
       <container className="contact-container">
         <form
-          action="https://getform.io/f/04feb2e1-24e2-4e73-98b3-837225c11041"
+          action="https://getform.io/f/c7fd5a9b-28cd-4ca5-9f10-d02454c4a5d6"
           method="POST"
         >
           <p className='contact-p'>
             Get in Touch!
           </p>
-          <div className="row ">
+          <div className="row-contact ">
             <div className="col">
               <input
                 type="text"
@@ -34,7 +34,7 @@ function Contact() {
               />
             </div>
           </div>
-          <div className="row my-3">
+          <div className="row-contact my-3">
             <div className="col">
               <input
                 type="email"
@@ -52,7 +52,7 @@ function Contact() {
               />
             </div>
           </div>
-          <div className="row my-3">
+          <div className="row-contact my-3">
             <div className="col">
               <textarea
                 className="form-control"
@@ -62,7 +62,7 @@ function Contact() {
               ></textarea>
             </div>
           </div>
-          <div className="row">
+          <div className="row-contact">
             <button type="submit" className="btn btn-custom btn-primary">
               Send
             </button>
