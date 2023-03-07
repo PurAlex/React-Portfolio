@@ -12,6 +12,9 @@ function ProjectsCard(props) {
                     <a href={props.link}>
                         <Button className="btn-card">Go to repo </Button>
                     </a>
+                    <a href={props.deplo}>
+                        <Button className="btn-card">Go to project </Button>
+                    </a>
                 </div>
             </div>
         </div >

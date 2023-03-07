@@ -2,37 +2,44 @@
     {
         "id": 1,
         "name": "Team Profile Generator",
-        "image": "./components/images/project-1.jpg",
-        "link":"https://github.com/PurAlex/Team-Profile-Generator"
+        "image": "../assets/images/project-1.jpg",
+        "link":"https://github.com/PurAlex/Team-Profile-Generator",
+        "deplo": "https://github.com/PurAlex/Team-Profile-Generator"
     },
     {
         "id": 2,
         "name": "README Generator",
-        "image": "./components/images/project-2.jpg",
-        "link":"https://github.com/PurAlex/README-Generator"
+        "image": "../assets/images/project-2.jpg",
+        "link":"https://github.com/PurAlex/README-Generator",
+        "deplo": "https://github.com/PurAlex/Team-Profile-Generator"
+
     },
     {
         "id": 3,
         "name": "Weather Forecast",
-        "image": "./components/images/project-3.jpg",
-        "link":"https://github.com/PurAlex/Weather-Forecast"
+        "image": "../assets/images/project-3.jpg",
+        "link":"https://github.com/PurAlex/Weather-Forecast",
+        "deplo": "https://puralex.github.io/Weather-Forecast/"
     },
     {
         "id": 4,
         "name": "Work Day Scheduler",
-        "image": "./components/images/project-4.jpg",
-        "link":"https://github.com/PurAlex/Work-day-scheduler"
+        "image": "../assets/images/project-4.jpg",
+        "link":"https://github.com/PurAlex/Work-day-scheduler",
+        "deplo": "https://puralex.github.io/Work-day-scheduler/"
     },
     {
         "id": 5,
         "name": "Password Generator",
-        "image": "./components/images/project-5.jpg",
-        "link":"https://github.com/PurAlex/Password-Generator"
+        "image": "../assets/images/project-5.jpg",
+        "link":"https://github.com/PurAlex/Password-Generator",
+        "deplo": "https://puralex.github.io/Password-Generator/"
     },
     {
         "id": 6,
         "name": "Quiz Questions",
-        "image": "./components/images/project-6.jpg",
-        "link":"https://github.com/PurAlex/Web-APIs"
+        "image":"../assets/images/project-6.jpg",
+        "link":"https://github.com/PurAlex/Web-APIs",
+        "deplo": "https://puralex.github.io/Web-APIs/index.html"
     }
 ]

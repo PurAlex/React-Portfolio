@@ -14,7 +14,7 @@ function Projects() {
           return (
             <div key={project.id} class="col-md-4 d-flex justify-content-center mb-5">
               <ProjectCard
-                deployed={project.deployed}
+                deplo={project.deplo}
                 link={project.link}
                 name={project.name}
                 image={project.image}
