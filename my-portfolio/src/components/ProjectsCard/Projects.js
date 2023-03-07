@@ -2,7 +2,6 @@ import React from "react";
 import Button from 'react-bootstrap/Button';
 import "./projects.css";
 
-
 function Projects(props) {
   return (
     <div>
@@ -19,6 +18,7 @@ function Projects(props) {
       </div>
     </div >
   );
+
 }
 
 export default Projects;
