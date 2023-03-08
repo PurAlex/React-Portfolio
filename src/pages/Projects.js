@@ -4,7 +4,6 @@ import projects from "../data/projects.json";
 import ProjectCard from "../components/projectsCard";
 
 function Projects() {
-  console.log(projects);
   return (
     <div className="container-fluid">
       <h1 className="mb-4">Projects</h1>

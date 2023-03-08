@@ -4,6 +4,7 @@ import "../assets/css/home.css";
 function Home() {
   return (
     <div className="header">
+      <img alt="Me" src={require("../assets/images/me.jpg")}></img>
       <h1>Hello, I am Alexander</h1>
       <p>
         Front End Web Developer

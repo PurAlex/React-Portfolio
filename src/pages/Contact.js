@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link, Route, Routes } from 'react-router-dom';
 import "../assets/css/contact.css";
 import cv from '../data/CV(Nicky).pdf';
 
