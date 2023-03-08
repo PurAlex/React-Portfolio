@@ -2,43 +2,44 @@
     {
         "id": 1,
         "name": "Team Profile Generator",
-        "image": "../assets/images/project-1.jpg",
+        "image": "https://raw.githubusercontent.com/PurAlex/React-Portfolio/main/src/assets/images/project-1.jpg",
         "link":"https://github.com/PurAlex/Team-Profile-Generator",
         "deplo": "https://github.com/PurAlex/Team-Profile-Generator"
     },
     {
         "id": 2,
-        "name": "README Generator",
-        "image": "../assets/images/project-2.jpg",
-        "link":"https://github.com/PurAlex/README-Generator",
-        "deplo": "https://github.com/PurAlex/Team-Profile-Generator"
-
+        "name": "Password Generator",
+        "image": "https://raw.githubusercontent.com/PurAlex/React-Portfolio/main/src/assets/images/project-5.jpg",
+        "link":"https://github.com/PurAlex/Password-Generator",
+        "deplo": "https://puralex.github.io/Password-Generator/"
     },
     {
         "id": 3,
         "name": "Weather Forecast",
-        "image": "../assets/images/project-3.jpg",
+        "image": "https://raw.githubusercontent.com/PurAlex/React-Portfolio/main/src/assets/images/project-3.jpg",
         "link":"https://github.com/PurAlex/Weather-Forecast",
         "deplo": "https://puralex.github.io/Weather-Forecast/"
     },
     {
         "id": 4,
         "name": "Work Day Scheduler",
-        "image": "../assets/images/project-4.jpg",
+        "image": "https://raw.githubusercontent.com/PurAlex/React-Portfolio/main/src/assets/images/project-4.jpg",
         "link":"https://github.com/PurAlex/Work-day-scheduler",
         "deplo": "https://puralex.github.io/Work-day-scheduler/"
     },
+
     {
         "id": 5,
-        "name": "Password Generator",
-        "image": "../assets/images/project-5.jpg",
-        "link":"https://github.com/PurAlex/Password-Generator",
-        "deplo": "https://puralex.github.io/Password-Generator/"
+        "name": "README Generator",
+        "image": "https://raw.githubusercontent.com/PurAlex/React-Portfolio/main/src/assets/images/project-2.jpg",
+        "link":"https://github.com/PurAlex/README-Generator",
+        "deplo": "https://github.com/PurAlex/Team-Profile-Generator"
+
     },
     {
         "id": 6,
         "name": "Quiz Questions",
-        "image":"../assets/images/project-6.jpg",
+        "image":"https://raw.githubusercontent.com/PurAlex/React-Portfolio/main/src/assets/images/project-6.jpg",
         "link":"https://github.com/PurAlex/Web-APIs",
         "deplo": "https://puralex.github.io/Web-APIs/index.html"
     }
