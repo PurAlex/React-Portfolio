@@ -8,6 +8,15 @@
     padding: 5px;
 }
 
+.home-img{
+    margin-top: -8rem;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+
 .header p{
     color: #AB2346;
     text-align: center;
