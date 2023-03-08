@@ -6,8 +6,6 @@
 
 I build my portfolio using **React**. The portfolio use dynamic rendering navigation `React Router` and I used a JSON file to render six projects of the Project component.
 
-I wasn't able to show any image on the projects page.
-
 ![Screenshot](./src/assets/images/Screenshot_1.jpg)
 ![Screenshot](./src/assets/images/Screenshot_2.jpg)
 ![Screenshot](./src/assets/images/Screenshot_3.jpg)
